@@ -1,0 +1,71 @@
+CORPUS = '''The patient was seen at the clinic for a routine follow up visit.
+The patient was advised to return for a follow up visit in two weeks.
+The patient was referred to the specialist for further evaluation.
+The patient was asked to bring all previous reports to the next visit.
+The patient was informed about the date and time of the next appointment.
+The patient was advised to rest and drink plenty of fluids.
+The patient was advised to continue the current medication as prescribed.
+The patient was given a written copy of the discharge instructions.
+The patient was asked to complete the registration form at the front desk.
+The patient will be contacted by the clinic to confirm the appointment.
+The patient arrived at the clinic on time for the scheduled appointment.
+The patient was seen by the nurse before the consultation with the doctor.
+The patient has been referred to the laboratory for routine blood tests.
+The patient was asked to fast for eight hours before the blood test.
+The patient was advised to avoid heavy meals before the test.
+The patient reported no change since the last visit.
+The patient was counselled about the importance of regular follow up.
+The patient was instructed to contact the clinic if the symptoms return.
+The patient was advised to visit the emergency department if the condition worsens.
+The patient understood the instructions and agreed to the plan.
+The patient consented to the procedure after the risks were explained.
+The patient was asked to sign the consent form before the procedure.
+The patient was provided with a copy of the consent form.
+The patient was scheduled for a review appointment next month.
+The patient was asked to confirm the contact details on file.
+The patient was advised to keep a record of the daily readings.
+The patient was asked to bring the record to the next visit.
+The referral letter was sent to the specialist on the same day.
+The referral letter was given to the patient at the end of the visit.
+The referral was made for further evaluation and management.
+The follow up visit is scheduled for the first week of next month.
+The follow up visit will include a review of the test results.
+The next appointment is scheduled for the morning clinic.
+The next appointment has been booked at the front desk.
+The appointment was rescheduled at the request of the patient.
+The appointment was cancelled and a new date was offered.
+The clinic will send a reminder message one day before the appointment.
+The clinic will contact the patient with the laboratory results.
+The clinic is open from morning to evening on all weekdays.
+The clinic staff will update the records after each visit.
+The discharge summary was prepared and handed to the patient.
+The discharge instructions were explained in simple language.
+The discharge instructions include the date of the follow up visit.
+The test results were reviewed with the patient during the visit.
+The test results were normal and no further action is needed.
+The test results will be shared with the patient within three days.
+The medication list was reviewed and updated during the visit.
+The medication was explained to the patient in detail.
+The medication should be taken as directed by the doctor.
+The prescription was given to the patient at the end of the consultation.
+The prescription can be collected from the pharmacy at the clinic.
+Please bring a valid identity card to the next appointment.
+Please arrive at the clinic fifteen minutes before the appointment.
+Please contact the front desk to reschedule the appointment.
+Please complete the form and return it to the front desk.
+Please carry all previous reports and prescriptions to the visit.
+Please inform the clinic staff about any change in contact details.
+Please follow the instructions given by the doctor and the nurse.
+Please return to the clinic for a follow up visit as advised.
+Advice given to the patient was documented in the record.
+Instructions were given to the patient and the family member.
+The family member was informed about the next appointment.
+The record was updated and signed by the attending doctor.
+A copy of the note was filed in the patient record.
+No further action is required at this time.
+The plan was discussed with the patient and agreed.
+The visit was completed without any delay.'''
+
+with open("corpus.txt", "w") as f:
+    f.write(CORPUS)
+print("saved corpus.txt:", len(CORPUS), "characters")
